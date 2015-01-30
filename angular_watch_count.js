@@ -35,3 +35,5 @@ window.ngWatchCount = function (targetElements) {
   console.log(['Watcher count', targetElements, watchers]);
   return watchers;
 }
+
+window.ngWatchCount();
